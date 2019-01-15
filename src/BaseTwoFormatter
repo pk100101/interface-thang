@@ -1,0 +1,7 @@
+public class DefaultFormatter implements NumberFormatter
+{
+        public String format (int numberInput)
+        {
+                String number = ""+numberInput;
+                String newString = "";
+                while (numberInput
