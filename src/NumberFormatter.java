@@ -1,6 +1,6 @@
 
 public interface NumberFormatter 
 {	
-	String format (int numberInput);
+	public abstract String format (int numberInput);
 }
 	
